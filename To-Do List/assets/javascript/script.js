@@ -1,11 +1,11 @@
 const ENTRADA = document.getElementById("myform");
 const MINHA_CHECK = document.getElementById("lista");
 
-
 function getTexto(){
     let texto = document.getElementById("texto");
     addBox(texto.value);
     ENTRADA.reset();
+    
 };
 
 function addBox(tarefa){

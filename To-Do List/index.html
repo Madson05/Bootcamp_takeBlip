@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/CSS/style.css">
     <title>To-Do List</title>
 </head>
 <body>
-    <h1>To-do list</h1>
-    <form id = "myform"></form>
+    <h1 id = "titulo">To-do list</h1>
+    <div id = "divi">
+    <form id = "myform">
         <input type="text" id = "texto" name = "texto">
-        <button onclick="getTexto()">Adicionar</button>
-    
+    </form>
+    <button onclick="getTexto()">Adicionar</button>
+    </div>
     <div id = "lista">  </div>
 
-    <script src="assets/script.js"></script>
+    <script src="assets/javascript/script.js"></script>
 </body>
 </html>
