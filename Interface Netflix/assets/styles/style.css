@@ -1,4 +1,31 @@
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body{
-    background-color: black;
-    color: white;
+    background-color: var(--preto);
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: "Arial Black" ;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+    
 }
