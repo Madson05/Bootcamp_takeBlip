@@ -10,6 +10,10 @@
     box-sizing: border-box;
 }
 
+
+
+
+
 /*Elementos principais*/
 body{
     background-color: var(--preto);
@@ -18,7 +22,6 @@ body{
 
 }
 header .container{
-    margin-left: 5px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -47,6 +50,9 @@ header nav a:hover{
 
 
 
+
+
+
 /*Titulo Principal*/
 .titulo-principal{
     font-size: 16px;
@@ -62,10 +68,41 @@ header nav a:hover{
 }
 
 .titulo-principal .descricao{
+    margin-top: 10px;
     margin-bottom:30px;
+
 }
 
-.titulo{
+.titulo-principal .titulo{
+    font-family: "Arial-Black", Arial, Helvetica, sans-serif;
     font-size: 40px;
+    margin-top: 15%;
+}
+.botao{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    cursor: pointer;
+    
+    
 }
 
+.botao:hover{
+    background-color: whitesmoke;
+    color:black;
+    transition: 2s ease all;   
+}
+
+.botao i{
+    margin-right: 6px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.titulo-principal .container{
+    width: 80%;
+}
