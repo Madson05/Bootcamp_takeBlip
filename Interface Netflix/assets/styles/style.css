@@ -10,17 +10,25 @@
     box-sizing: border-box;
 }
 
-
+/*Elementos principais*/
 body{
     background-color: var(--preto);
     font-family:'Times New Roman', Times, serif;
+    color:white;
 
+}
+header .container{
+    margin-left: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 header .logo{
     color: var(--vermelho);
     font-family: "Arial Black" ;
     font-size: 40px;
+    margin-right: 25%;
 }
 
 header nav a{
@@ -28,4 +36,36 @@ header nav a{
     color: #AAA;
     margin-right: 10px;
     
+    
 }
+
+header nav a:hover{
+    color: #fff;
+
+}
+
+
+
+
+/*Titulo Principal*/
+.titulo-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url("https://www.themoviedb.org/t/p/original/szNvN7YtL5KsVpL7ZsQwWr6vBrP.jpg");
+    height: 400px;
+    background-size: cover;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.titulo-principal .descricao{
+    margin-bottom:30px;
+}
+
+.titulo{
+    font-size: 40px;
+}
+
