@@ -17,7 +17,7 @@
 /*Elementos principais*/
 body{
     background-color: var(--preto);
-    font-family:'Times New Roman', Times, serif;
+    font-family:Arial, Times, serif;
     color:white;
 
 }
@@ -57,7 +57,7 @@ header nav a:hover{
 .titulo-principal{
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url("https://www.themoviedb.org/t/p/original/szNvN7YtL5KsVpL7ZsQwWr6vBrP.jpg");
-    height: 400px;
+    height: 500px;
     background-size: cover;
 
     display:flex;
@@ -107,9 +107,19 @@ header nav a:hover{
     width: 80%;
 }
 
+.carrosselFilmes{
+    margin-top: 5px;
+}
+
 .boxFilme{
     height: 100%;
     width: 100%;
     display: block;
 
 }
+
+.boxFilme:hover{
+    cursor: pointer;
+    filter: blur(2px)
+}
+
